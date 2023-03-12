@@ -1,11 +1,18 @@
 # php_rest_api_jwt
 Created REST api with JWT token
 
-Step1: Download the complete conde
+Step1: Download the complete conde.
+
 Step2: Create mysql database via phpmyadmin or any DB client (sql yog, workbench) and copy databas name
+
 Step3: Go to the downloade project folder and open file inc/Database.php and paste the database name that you copied to line 6 private $db_name = 'db_name';
-Step4: Run this URL http://localhost/php_auth_api/install/, if you are running over any domain then http://abc.com/php_auth_api/install/
-Step5: Run the API using postman or other API client
+
+Step4: Create folder with name upload on the root
+
+Step5: Run this URL http://localhost/php_auth_api/install/, if you are running over any domain then http://abc.com/php_auth_api/install/
+
+Step6: Run the API using postman or other API client
+
 
 1. Register
 Method : POST
